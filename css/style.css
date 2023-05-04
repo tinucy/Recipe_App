@@ -1,0 +1,130 @@
+.container {
+  max-width: 400px;
+  border: 1px red dotted;
+  padding: 10px;
+}
+
+nav {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+nav a {
+  font-size: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:first-child {
+  text-decoration: underline;
+  color: green;
+}
+
+nav a:hover {
+  color: green;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.search_field {
+  width: 80%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  /* To maintain the size set for the border add border-box */
+  box-sizing: border-box;
+}
+
+.search_field:focus {
+  /*Do not highlight the border of the input field when I focus on it  */
+  outline: none;
+}
+
+.search_field::placeholder {
+  color: lightgray;
+}
+
+.search_btn {
+  width: 20px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 17px;
+  box-sizing: border-box;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.search_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hero {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 30px;
+  color: green;
+  margin: 0px;
+}
+
+.hero p {
+  color: gray;
+  margin: 0px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.recipe {
+  max-width: 190px;
+  border: 1px red dotted;
+}
+
+.recipe img {
+  border-radius: 10px;
+}
+
+.recipe h2 {
+  margin: 0px;
+  margin-bottom: 5px;
+  color: gray;
+  font-size: 15px;
+}
+
+.recipe p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: lightgray;
+}
+
+.recipe_section {
+  display: flex;
+  /* When things are extending beyond the container */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  display: flex;
+  /* This makes our App to be at the centre or the page even if it is maximized or otherwise */
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
