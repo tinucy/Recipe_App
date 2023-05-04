@@ -38,6 +38,7 @@ main {
   font-size: 20px;
   /* To maintain the size set for the border add border-box */
   box-sizing: border-box;
+  border: 1px red dotted;
 }
 
 .search_field:focus {
@@ -50,7 +51,7 @@ main {
 }
 
 .search_btn {
-  width: 20px;
+  width: 20%;
   height: 40px;
   border-radius: 20px;
   font-size: 17px;
@@ -59,12 +60,14 @@ main {
   color: white;
   cursor: pointer;
   border: none;
+  /* border: 1px red dotted; */
 }
 
 .search_section {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  /* border: 1px red dotted; */
 }
 
 .hero {
@@ -87,7 +90,7 @@ main {
 
 .recipe {
   max-width: 190px;
-  border: 1px red dotted;
+  /* border: 1px red dotted; */
 }
 
 .recipe img {
